@@ -80,7 +80,7 @@ function generateMarkdown(answer) {
   ### ${answer.tests}
 
   ## Questions:
-  ### If you have any questions, you may contact me at either
+  ### Contact information below for any comments/questions.
   ### Github: https://github.com/${answer.askMe}
   ### or
   ### Email: ${answer.email}
