@@ -1,7 +1,7 @@
 # readmegenerator
 ## project allows user to generate a readme.md file. This file includes the title of the project, licenses used, description, uses for project, contributions, github and email. The generated file also has a table of contents.
 
-## <a> Video Walkthrough: https://youtu.be/dRXgpZ7cApQ</a>
+## <a> Video Walkthrough: https://www.youtube.com/watch?v=5aA_pyz6vuI&ab_channel=ThomasFrohm</a>
 
 # Sample readme.md generated
 <img src="./Develop/utils/Screen Shot 2022-02-21 at 10.39.04 AM.png">
