@@ -4,7 +4,7 @@
 ## <a> Video Walkthrough: https://youtu.be/dRXgpZ7cApQ</a>
 
 # Sample readme.md generated
-<img src="./Develop/utils/Screen Shot 2022-02-20 at 9.11.56 PM.png">
+<img src="./Develop/utils/Screen Shot 2022-02-21 at 10.39.04 AM.png">
 
 ## https://github.com/tfrohm11
 ## https://tfrohm11.github.io/readmegenerator/
