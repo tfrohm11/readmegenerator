@@ -3,7 +3,7 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 const index = require('../index.js');
 
-// function that returns a license badge based on which license is passed in
+// TODO: Cerate afunction that returns a license badge based on which license is passed in
 // If there is no license, it returns an empty string
 function renderLicenseBadge(license) {
   let badge = '';
@@ -19,7 +19,7 @@ function renderLicenseBadge(license) {
   return badge;
 }
 
-// function that returns the license link
+// TODO: Create a function that returns the license link
 // If there is no license, it returns an empty string
 function renderLicenseLink(license) {
   let licenseLink = '';
@@ -35,7 +35,7 @@ function renderLicenseLink(license) {
     return licenseLink;
 }
 
-// function that returns the license section of README
+// TODO: Create a function that returns the license section of README
 // If there is no license, it returns an empty string
 function renderLicenseSection(license) {
   let licenseSection = ''
@@ -48,7 +48,7 @@ function renderLicenseSection(license) {
   return licenseSection;
 }
 
-// function to generate markdown for the README.md
+// TODO: Create a function to generate markdown for the README.md
 function generateMarkdown(answer) {
 
   return`
@@ -87,5 +87,4 @@ function generateMarkdown(answer) {
 `;
 }
 
-// exports
 module.exports = generateMarkdown;
