@@ -23,24 +23,26 @@ default:
 }
 return badge
 }
-
-
-
 // TODO: Create a function that returns the license link
 // If there is no license, it returns an empty string
 function renderLicenseLink(license) {
   let licenseLink = '';
-    if(license === 'MIT') {
-      licenseLink = 'https://choosealicense.com/licenses/mit/'
-    } else if (license === 'Apache 2.0') {
-      licenseLink = 'http://www.apache.org/licenses/LICENSE-2.0'
-    } else if (license === 'GPL v3.0') {
-      licenseLink = 'https://www.gnu.org/licenses'
-    } else {
-      licenseLink = ""
+   switch (license) {
+     case 'MIT':
+      licenseLink = 'https://choosealicense.com/licenses/mit/';
+      break;
+    case 'Apache 2.0':
+      licenseLink = 'http://www.apache.org/licenses/LICENSE-2.0';
+      break;
+     case 'GPL v3.0':
+      licenseLink = 'https://www.gnu.org/licenses';
+      break;
+    default:
+      licenseLink = '';
     }
-    return licenseLink;
-}
+      return licenseLink
+   }
+
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, it returns an empty string

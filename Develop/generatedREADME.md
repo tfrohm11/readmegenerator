@@ -1,8 +1,8 @@
 
   # ok
 
-  ## License: GPL v3.0  ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
-  ### https://www.gnu.org/licenses
+  ## License: MIT  ![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)
+  ### https://choosealicense.com/licenses/mit/
 
   ## Table of Contents:
   ###  * [Installation](#installation)
@@ -20,14 +20,14 @@
   ### ok
 
   ## Contributors:
-  ### ok
+  ### k
 
   ## Tests:
   ### Run the following commands in your terminal to test this app:
-  ### ok
+  ### k
 
   ## Questions:
   ### Contact information below for any comments/questions.
-  ### Github: https://github.com/ok
+  ### Github: https://github.com/k
   ### or
-  ### Email: ok
+  ### Email: k
